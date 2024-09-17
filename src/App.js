@@ -3,6 +3,7 @@ import Section from './component/Section';
 import Heading from './component/Heading';
 import SearchandFilters from './component/SearchandFilters';
 import Display from './component/Display';
+import Picture from './component/Picture';
 import { useState, useEffect } from 'react';
 import axios from 'axios';
 
@@ -34,6 +35,7 @@ function App() {
 
   return (
     <div className="App">
+    <Picture/>
       <Heading />
       <Section />
       <SearchandFilters handleKeyPress={handleKeyPress} />

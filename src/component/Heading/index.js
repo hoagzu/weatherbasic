@@ -3,6 +3,7 @@ import './Heading.scss';
 
 function Heading() {
   return (
+    
     <div className="heading">
       <div className="heading_logo">Dark Weather</div>
       <nav className="heading_anchor">
