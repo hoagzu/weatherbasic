@@ -38,7 +38,7 @@ function App() {
   return (
     <div className="App">
       <a href='https://wttoday.vercel.app/'>
-        <img src='' alt=''></img>
+        <img src='https://iconscout.com/free-icon/weather-191' alt=''></img>
       </a>
       <Heading />
       <Section />
