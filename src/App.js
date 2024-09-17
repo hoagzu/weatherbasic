@@ -3,9 +3,11 @@ import Section from './component/Section';
 import Heading from './component/Heading';
 import SearchandFilters from './component/SearchandFilters';
 import Display from './component/Display';
-import Picture from './component/Picture';
+
 import { useState, useEffect } from 'react';
 import axios from 'axios';
+
+
 
 const api = {
   key: "952e7dcf69377d72e47dd606c5e88aee",
@@ -23,7 +25,7 @@ function App() {
         .then(res => {
           setWeather(res.data);
         })
-        .catch(() => setWeather(null)); // Reset weather if the API call fails
+        .catch(() => setWeather(null));
     }
   }, [city]);
 
@@ -35,7 +37,9 @@ function App() {
 
   return (
     <div className="App">
-    <Picture/>
+      <a href='https://wttoday.vercel.app/'>
+        <img src='' alt=''></img>
+      </a>
       <Heading />
       <Section />
       <SearchandFilters handleKeyPress={handleKeyPress} />
