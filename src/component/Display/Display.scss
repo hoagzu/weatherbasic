@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+.display {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 15px;
+  font-family: 'Poppins', sans-serif;    
+}
+
+.weatherContainer {
+  display: grid;
+  place-items: center;
+  color: white;
+  border: none;
+  width: 289px;
+  height: 389px;
+  border-radius: 20px;
+  padding: 1rem;
+  gap: 1rem;
+  background-color: #374151; 
+  font-family: 'Poppins', sans-serif;
+}
+
+.weatherInfo {
+  display: flex;
+  gap: 0.5rem;
+
+  .cityName {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding-top: 0.5rem;
+  }
+
+  .temperature {
+    font-size: 1.5rem;
+  }
+}
+
+.date,
+.windSpeed,
+.description {
+  font-size: 1rem;
+}
+
+.description {
+  font-weight: bold;
+}
+
+/* Đặt đoạn này ở cuối để tạo style cho biểu tượng thời tiết */
+.weatherIcon {
+  width: 100px;
+  height: 100px;
+}
