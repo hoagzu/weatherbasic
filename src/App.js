@@ -37,9 +37,7 @@ function App() {
 
   return (
     <div className="App">
-      <a href='https://wttoday.vercel.app/'>
-        <img src='' alt=''></img>
-      </a>
+      
       <Heading />
       <Section />
       <SearchandFilters handleKeyPress={handleKeyPress} />
